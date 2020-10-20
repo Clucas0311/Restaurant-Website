@@ -1,0 +1,76 @@
+/* Create a CSS reset to create your own padding and margins */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+/* Main styling the whole entire webpage*/
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Space between the lines */
+    line-height: 1.7em;
+}
+/* All links */
+a {
+    color: #333333;
+    /* Remove underline */
+    text-decoration: none; 
+}
+/* Headings */
+h1, h2, h3 {
+    /* Space between the title */
+    padding-bottom: 20px; 
+}
+/* Paragraph */
+p {
+    margin: 10px 0;
+}
+
+/* Utilities */
+.container {
+    margin: auto; 
+    max-width: 1100px;
+    overflow: auto; 
+    padding: 0 20px; 
+}
+
+/* NavBar */
+#navbar {
+    /* Backgrough color */
+    background: #333333;
+    /* font color */
+    color: #ffffff;
+    overflow: auto; 
+}
+/* Color for the links  */
+#navbar a {
+    color: #ffffff
+}
+
+#navbar h1 {
+    float: left; 
+    padding-top: 20px;
+}
+#navbar ul {
+    /* removes bullets */
+    list-style: none;
+    /* Push links to the right */
+    float: right; 
+}
+#navbar ul li {
+    /* puts list in a straight line on the left */
+    float: left; 
+}
+
+#navbar ul li a {
+    display: block; 
+    padding: 20px; 
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #444;
+    /* When putting cursor around it changes to a color */
+    color: #f7c08a;ß
+}
